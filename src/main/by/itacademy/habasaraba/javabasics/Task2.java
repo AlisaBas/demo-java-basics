@@ -12,11 +12,11 @@ public class Task2 {
             System.out.println(1);
         }
        else if(b%10==0){
-            System.out.println(Math.round(b));
+            System.out.println((Math.round(b)-1));
 
     }
     else {
-            System.out.println(Math.round(b)+1);
+            System.out.println((Math.round(b)+1));
     }
     }}
 
